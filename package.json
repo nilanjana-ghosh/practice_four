@@ -1,0 +1,35 @@
+{
+  "name": "practice_four",
+  "version": "1.0.0",
+  "description": "This is a sample React JS application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilanjana-ghosh/practice_four.git"
+  },
+  "keywords": [
+    "React",
+    "Javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilanjana-ghosh/practice_four/issues"
+  },
+  "homepage": "https://github.com/nilanjana-ghosh/practice_four#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+    "browserslist": [
+    "last 5 versions"
+  ]
+  
+}
