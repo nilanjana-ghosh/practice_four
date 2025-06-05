@@ -1,12 +1,6 @@
-import { LOGO } from "../utils/constants";
 import { useState } from "react";
-const loginButtonStyle = {
-    // width: "100px",
-    // padding: "10px",
-    // background: "#e73336",
-    // border: "#e73336",
-    // color: "#fff"
-};
+import {REST_LOGO_URL} from "../utils/constants";
+
 
 const Header = () => {
 
@@ -21,7 +15,7 @@ const Header = () => {
         <div className="container">
             <div className="header-container">
                 <div className="logo-div">
-                    <img src={LOGO} alt="Logo" className="logo-img" />
+                    <img src={REST_LOGO_URL} alt="Logo" className="logo-img" />
                 </div>
                 <ul>
                     <li>Swiggy Corporate</li>
@@ -30,7 +24,7 @@ const Header = () => {
                     <li>Help</li>
                 </ul>
                 <div>
-                    <button style={loginButtonStyle} onClick={() => { clickHandler() }}>{loginButtonLabel}</button>
+                    <button onClick={() => { clickHandler() }}>{loginButtonLabel}</button>
                 </div>
             </div>
         </div>
